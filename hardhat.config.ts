@@ -53,7 +53,7 @@ const config: HardhatUserConfig = {
     solidity: {
         compilers: [
             {
-                version: "0.8.0",
+                version: "0.8.17",
                 settings: {
                     optimizer: {
                         enabled: true,
@@ -62,24 +62,12 @@ const config: HardhatUserConfig = {
                 },
             },
             {
-                version: "0.8.9",
-                settings: {
-                    optimizer: {
-                        enabled: true,
-                        runs: 1,
-                    },
-                },
-            },
-            {
-                version: "0.7.4",
-            },
-            {
-                version: "0.4.25",
+                version: "0.6.0",
             },
         ],
         overrides: {
-            "contracts/challenges/Shilpkaar.sol": {
-                version: "0.4.25",
+            "contracts/challenges/DoubleEntryPoint.sol": {
+                version: "0.6.0",
             },
         },
     },
