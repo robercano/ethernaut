@@ -9,8 +9,6 @@ task("solveDoubleEntryPoint", "Solves the Double Entry Point challenge")
             throw new Error(`Invalid contract address format: ${args.doubleEntryPointAddress}`);
         }
 
-        const player = (await hre.ethers.getSigners())[0];
-
         const doubleEntryPointFactory = await hre.ethers.getContractFactory("DoubleEntryPoint");
         const doubleEntryPoint = (await doubleEntryPointFactory.attach(
             args.doubleEntryPointAddress,
