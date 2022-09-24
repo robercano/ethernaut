@@ -10,6 +10,7 @@ import "solidity-coverage";
 import "./tasks/accounts";
 import "./tasks/clean";
 import "./tasks/solveSamaritan";
+import "./tasks/solveDoubleEntryPoint";
 
 import { resolve } from "path";
 
@@ -74,9 +75,6 @@ const config: HardhatUserConfig = {
     typechain: {
         outDir: "typechain",
         target: "ethers-v5",
-        externalArtifacts: [
-            //"@uniswap/v3-periphery/artifacts/contracts/interfaces/INonfungiblePositionManager.sol/INonfungiblePositionManager.json",
-        ],
     },
     abiExporter: {
         path: "./abis",
