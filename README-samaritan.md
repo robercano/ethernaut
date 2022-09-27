@@ -10,6 +10,8 @@ We create a contract that implements the `notify` function that will be called b
 
 Profit!
 
+# Instance
+
 Network: Rinkeby
 Level Instance: 0x53f17D22dCEb1eaD8d2A947d3278CaD97e65A07F
 Solution Instance: 0xc90Aee6Eda58f7cc2268a16CAE4450ECce184dd7

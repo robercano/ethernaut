@@ -17,6 +17,8 @@ Our work here is to generate a Forta Bot that prevents this case. For that we cr
 
 This will make the `delegateTransfer` call fail thanks to the `fortaNotify` modifier, and the transfer will not be executed.
 
+# Instance
+
 Network: Rinkeby
 Level Instance: 0x9F8AEa7775E493E62CFca558dD283E8Ba642aA75
 Solution Instance: 0x20a2CD75bD45e9Cce88b95940486457ad5D996aA

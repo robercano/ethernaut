@@ -11,6 +11,7 @@ import "./tasks/accounts";
 import "./tasks/clean";
 import "./tasks/solveSamaritan";
 import "./tasks/solveDoubleEntryPoint";
+import "./tasks/solveMotorbike";
 
 import { resolve } from "path";
 
@@ -65,10 +66,16 @@ const config: HardhatUserConfig = {
             {
                 version: "0.6.0",
             },
+            {
+                version: "0.6.12",
+            },
         ],
         overrides: {
             "contracts/challenges/DoubleEntryPoint.sol": {
                 version: "0.6.0",
+            },
+            "contracts/challenges/Motorbike.sol": {
+                version: "0.6.12",
             },
         },
     },
